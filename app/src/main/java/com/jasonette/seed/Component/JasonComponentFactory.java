@@ -40,6 +40,14 @@ public class JasonComponentFactory {
                 view = JasonSliderComponent.build(prototype, component, parent, context);
             } else if(type.equalsIgnoreCase("switch")) {
                 view = JasonSwitchComponent.build(prototype, component, parent, context);
+            } else if(type.equalsIgnoreCase("speak")) {
+                JSONObject customComponent = new JSONObject();
+                customComponent.put("type", "label");
+                customComponent.put("class", "bold");
+                customComponent.put("text", "Tutorial");
+                view = JasonLabelComponent.build(null, customComponent, null, context);
+                view.setVisibility(View.GONE);
+                Log.e("ForkFactory", component.getString("text"));
             } else {
                 // Non-existent component warning
                 JSONObject error_component = new JSONObject(component.toString());

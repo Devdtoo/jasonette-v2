@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Jasonette</string>
-<!--    <string name="url">file://hello.json</string>-->
+    <string name="url">file://shExp.json</string>
     <string name="launch">file://preload.json</string>
 <!--    <string name="url">https://devdtoo.github.io/SDUI-Jsons/Superheroes.json</string>-->
     <!--    <string name="url">https://devdtoo.github.io/SDUI-Jsons/Jsonette.json</string>-->
 <!--        <string name="url">https://devdtoo.github.io/SDUI-Jsons/sales.json</string>-->
-    <!--    <string name="url">https://devdtoo.github.io/SDUI-Jsons/test.json</string>-->
-        <string name="url">https://jasonette.github.io/Jasonpedia/demo.json</string>
+<!--        <string name="url">https://devdtoo.github.io/SDUI-Jsons/test.json</string>-->
+<!--        <string name="url">https://devdtoo.github.io/SDUI-Jsons/exp1.json</string>-->
+<!--        <string name="url">https://jasonette.github.io/Jasonpedia/demo.json</string>-->
+<!--        <string name="url">https://devdtoo.github.io/SDUI-Jsons/demo.json</string>-->
 <!--    <string name="url">https://jasonette.github.io/Jasonpedia/view/layer/dynamic.json</string>-->
 </resources>
