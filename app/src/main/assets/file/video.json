@@ -1,0 +1,22 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Video",
+      "description": "Tap to play the video"
+    },
+    "body": {
+      "sections": [{
+        "items": [{
+          "type": "image",
+          "url": "https://vjs.zencdn.net/v/oceans.png",
+          "action": {
+            "type": "$media.play",
+            "options": {
+              "url": "https://vjs.zencdn.net/v/oceans.mp4"
+            }
+          }
+        }]
+      }]
+    }
+  }
+}

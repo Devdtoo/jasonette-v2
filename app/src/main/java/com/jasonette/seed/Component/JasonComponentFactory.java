@@ -40,6 +40,8 @@ public class JasonComponentFactory {
                 view = JasonSliderComponent.build(prototype, component, parent, context);
             } else if(type.equalsIgnoreCase("switch")) {
                 view = JasonSwitchComponent.build(prototype, component, parent, context);
+            }else if(type.equalsIgnoreCase("spinner")) {
+                view = JasonSpinnerComponent.build(prototype, component, parent, context);
             } else if(type.equalsIgnoreCase("speak")) {
                 JSONObject customComponent = new JSONObject();
                 customComponent.put("type", "label");

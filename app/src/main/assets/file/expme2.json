@@ -1,0 +1,84 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Screen two"
+    },
+    "body": {
+      "style": {
+        "background": "https://devdtoo.github.io/SDUI-Jsons/background.png",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "style": {
+            "align": "center"
+          },
+          "items": [
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "button",
+                  "conversationId": 11,
+                  "robotification": true,
+                  "text": "NEXT",
+                  "href": {
+                    "url": "https://devdtoo.github.io/SDUI-Jsons/Superheroes.json"
+                  },
+                  "style": {
+                    "corner_radius": "30",
+                    "align": "right",
+                    "color": "#ffffff",
+                    "border_color": "#ffffff",
+                    "border_width": "2",
+                    "width": "150"
+                  }
+                },
+                {
+                  "type": "button",
+                  "text": "DONE",
+                  "robotification": true,
+                  "conversationId": 13,
+                  "href": {
+                    "url": "https://devdtoo.github.io/SDUI-Jsons/test.json"
+                  },
+                  "style": {
+                    "corner_radius": "30",
+                    "align": "right",
+                    "color": "#ffffff",
+                    "border_color": "#ffffff",
+                    "border_width": "2",
+                    "width": "150"
+                  }
+                },
+                {
+                  "type": "conversation",
+                  "pepper_chat": [
+                    {
+                      "conversationId": 13,
+                      "chat": {
+                        "input": [
+                          "hi",
+                          "hello",
+                          "hellp pepper"
+                        ],
+                        "output": [
+                          "Hi, Welcome to Proven Solution"
+                        ],
+                        "error": "Sorry I didn't understand, Please say it again",
+                        "nextScreen": {
+                          "id": "2",
+                          "name": "FindMeeting"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
